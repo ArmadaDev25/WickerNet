@@ -13,3 +13,14 @@
 {
     text-align: center;
 }
+/* Flex Cantainer for the website navigation menu */
+.navMenuContainer
+{
+    border: 3px solid blue; /* Displays a blue solid border that is 3px thick  */
+    display: flex; /*Creates the flex box Layout */
+}
+.navMenuContainer > div 
+{
+    text-align: center; /*Aligns the text of each div to the center of their flex boxes */
+    flex: 1;   
+}
