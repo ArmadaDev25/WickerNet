@@ -5,6 +5,17 @@
     background-color:rgb(255, 166, 1);
     text-align: center;
 }
+/* Website title ribbon rules */
+.titleLogo
+{
+    padding: 5px;
+    display: flex; /*Creates the flex box Layout */
+}
+.titleLogo > div
+{
+    padding: 5%;
+ 
+}
 .Webtextbody
 {
     color: rgb(76, 0, 255);  
