@@ -2,7 +2,8 @@
 .Webheader
 {
     color: rgb(76, 0, 252);
-    background-color:rgb(255, 166, 1)
+    background-color:rgb(255, 166, 1);
+    text-align: center;
 }
 .Webtextbody
 {
