@@ -1,11 +1,11 @@
-/* Webheader Rules */
-.Webheader
+
+/* Homepage Website title ribbon rules */
+.WebheaderHome
 {
     color: rgb(76, 0, 252);
     background-color:rgb(255, 166, 1);
     text-align: center;
 }
-/* Website title ribbon rules */
 .titleLogo
 {
     padding: 5px;
@@ -14,15 +14,18 @@
 .titleLogo > div
 {
     padding: 5%;
- 
+    font-family: Arial, Helvetica, sans-serif; 
 }
+
 .Webtextbody
 {
-    color: rgb(76, 0, 255);  
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 .subheader 
 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Flex Cantainer for the website navigation menu */
 .navMenuContainer
@@ -34,4 +37,11 @@
 {
     text-align: center; /*Aligns the text of each div to the center of their flex boxes */
     flex: 1;   
+}
+
+/*Rules For The Website title ribbon on other pages other than the homepage*/
+.genericSiteTitleRibbon
+{
+    background-color:rgb(255, 166, 1);
+    font-family: Arial, Helvetica, sans-serif; 
 }
